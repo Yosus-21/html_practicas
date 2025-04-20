@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="editalo.css">
+
+</head>
+<body>
+    <form>
+        <div class="caja">
+            <h1>Formulario</h1>
+            <label for="name">Ingrese nombre</label>
+            <input type="text" placeholder="nombre" id="name">
+        </div>
+        <div class="caja">
+            <input type="text" placeholder="email">
+        </div>
+        
+        <div class="caja">
+            <input type="text" placeholder="pin">
+        </div>
+        <div>
+            <textarea rows="8" name="texto" id="mensaje"></textarea>
+        </div>
+        
+        <div class="caja">
+                <label for="selector">eligja una opcion</label>
+                <select name="opcion" id="selector">
+                <option value="valu1">manzana</option>
+                <option value="valu2">pera</option>
+                <option value="valu3">uva</option>
+                </select>
+        </div>
+
+
+            <!-- referente -->
+        <div class="caja">
+            <label for="selector">eligja una opcion</label>
+            <input list="referente">
+            <datalist id="referente">
+            <option value="valu1">manzana</option>
+            <option value="valu2">pera</option>
+            <option value="valu3">uva</option>
+            </datalist>
+    </div>
+
+    </form>
+</body>
+</html>
